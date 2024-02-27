@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="@webruan">
+
+    <!-- Social Media Sharing -->
+    <meta property="og:url" content="https://bioparatodos.com.br/treinamento">
+    <meta property="og:site_name" content="Biomagnetismo Para Todos">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Biomagnetismo Para Todos">
+    <meta property="og:description" content="Chegou a sua vez de estar conosco. Aprender a nossa forma de trabalhar, de salvar vidas, achar a verdadeira causa de dores e doenças.">
+
+    <!-- Search Engines -->
+    <meta name="keywords" content="Biomagnetismo Para Todos, tratamento com imãs, saúde, cura natural, protocolos de tratamentos, alívio de sintomas, guia prático, biomagnetismo, imãs terapêuticos, terapia complementar, bem-estar, saúde holística, equilíbrio energético, recuperação natural, tratamento não invasivo, saúde integral, alternativa natural, qualidade de vida, revitalização corporal, equilíbrio emocional, terapia magnética, autocuidado, cura energética, saúde física, saúde emocional, treinamento biomagnetismo, biomagnetismo curso, Claudia Molla, Néia Salete.">
+    <meta name="description" content="De forma simples e fácil, você já vai começar a aplicar todas as técnicas. Conseguir fazer o auto tratamento, ajudar as pessoas que ama e até conseguir uma fonte de renda!">
+
+    <link rel="shortcut icon" href="./src/assets/images/favicon.webp" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="preload" as="style" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="./src/styles/normalize-min.css" async>
+    <link rel="stylesheet" href="./src/styles/desktop-min.css" async>
+    <link rel="stylesheet" href="./src/styles/tablet-min.css" media="screen and (max-width: 1199px)" async>
+    <link rel="stylesheet" href="./src/styles/mobile-min.css" media="screen and  (max-width: 767px)" async>
+
+    <title>Biomagnetismo Para Todos</title>
+
+    <script>
+      window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+          // Recarregamento do cache (mobile)
+          window.scrollTo(0, 0);
+        }
+      });
+
+      function scrollToTopSmooth() {
+        const scrollToTop = () => {
+          if (window.scrollY != 0) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            requestAnimationFrame(scrollToTop);
+          }
+        };
+        scrollToTop();
+      }
+
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          window.scrollTo(0, 0);
+        }, 100);
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="row">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./src/assets/images/desktop/nav-logosymbol.webp">
+          <source media="(min-width: 768px)" srcset="./src/assets/images/tablet/nav-logosymbol.webp">
+          <source media="(min-width: 320px)" srcset="./src/assets/images/mobile/nav-logosymbol.webp">
+          <img loading="lazy" src="./src/assets/images/desktop/nav-logosymbol.webp" alt="Logo Símbolo - Biomagnetismo Para Todos">
+        </picture>
+        
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./src/assets/images/desktop/nav-logotext.webp">
+          <source media="(min-width: 768px)" srcset="./src/assets/images/tablet/nav-logotext.webp">
+          <source media="(min-width: 320px)" srcset="./src/assets/images/mobile/nav-logotext.webp">
+          <img loading="lazy" src="./src/assets/images/desktop/nav-logotext.webp" alt="Logo Texto - Biomagnetismo Para Todos">
+        </picture>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="row main">
+            <div class="imgs">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./src/assets/images/desktop/hero-claudiaeneia.webp">
+                <source media="(min-width: 768px)" srcset="./src/assets/images/tablet/hero-claudiaeneia.webp">
+                <source media="(min-width: 320px)" srcset="./src/assets/images/mobile/hero-claudiaeneia.webp">
+                <img src="./src/assets/images/desktop/hero-claudiaeneia.webp" alt="Claudia Molla e Néia Salete">
+              </picture>
+              
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./src/assets/images/desktop/hero-wave.webp">
+                <source media="(min-width: 768px)" srcset="./src/assets/images/tablet/hero-wave.webp">
+                <source media="(min-width: 320px)" srcset="./src/assets/images/mobile/hero-wave.webp">
+                <img src="./src/assets/images/desktop/hero-wave.webp" alt="Onda Biomagnética">
+              </picture>
+            </div>
+
+            <div class="column main">
+              <div class="column title">
+                <h4 class="c-purple f-bold">
+                  Conheça o <span class="c-pink">método exclusivo</span> de tratamento que ajuda milhares de pessoas a encontrar <span class="c-pink">saúde física</span> e <span class="c-pink">emocional.</span>
+                </h4>
+
+                <p>
+                  Aprenda a terapia complementar que ajuda na <span class="c-purple f-medium">recuperação de doenças simples e graves.</span> O <span class="c-pink f-medium">Biomagnetismo Para Todos</span> é indicado a todas as pessoas, sem restrições de ensino e idade. <span class="span c-purple">É para todos!</span>
+                </p>
+              </div>
+
+              <video controls onloadstart="this.volume=0.05">
+                <source src="./src/assets/videos/bioparatodos.mp4" type="video/mp4">
+              </video>
+
+              <a href="#offer" class="cta">quero transformar minha saúde hoje mesmo!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="forwho">
+        <div class="container arrows">
+          <i class='bx bx-down-arrow-alt'></i>
+          <div class="column main">
+            <h2 class="f-bold">
+              Para quem é o treinamento?
+            </h2>
+
+            <div class="row main">
+              <div class="column card">
+                <div class="row">
+                  <i class='bx bx-home'></i>
+                  <h6 class="c-purple f-bold">Para você que...</h6>
+                </div>
+
+                <p>
+                  Quer se tornar um terapeuta dentro da sua prórpria casa, <span class="c-purple">ajudando amigos, familiares e a si mesmo...</span>
+                </p>
+              </div>
+
+              <div class="column card">
+                <div class="row">
+                  <i class='bx bx-money-withdraw' ></i>
+                  <h6 class="c-pink f-bold">Para você que...</h6>
+                </div>
+
+                <p>
+                  Quer se tornar um terapeuta <span class="c-pink">ajudando outras pessoas</span> e transformando isso em <span class="c-pink">uma nova fonte de renda...</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="column cta">
+              <div class="img" id="forwho-magnets"></div>
+              <a href="#offer" class="cta">quero ganhar 10 imãs grátis agora!</a>
+            </div>
+          </div>
+          <i class='bx bx-down-arrow-alt'></i>
+        </div>
+      </section>
+
+      <section id="whatlearn">
+        <div class="container">
+          <div class="column main">
+            <h2 class="f-bold">
+              o que você vai aprender:
+            </h2>
+
+            <div class="column mid">
+              <div class="row main">
+                <div class="column left">
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Técnicas exclusivas e comprovadas do basico ao avançado;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Atendimento presencial e à distância;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Como identificar os pontos de energia do corpo para aplicar a técnica com precisão;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Protocolos exclusivos;</p>
+                  </div>
+                </div>
+  
+                <div class="column right">
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Pontos exclusivos de aplicação dos imãs;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Técnicas rastreio;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Conexão bioenergética;</p>
+                  </div>
+  
+                  <div class="row">
+                    <i class='bx bx-check-square' ></i>
+                    <p>Como utilizar os ímãs para tratar uma ampla variedade de doenças;</p>
+                  </div>
+                </div>
+              </div>
+
+              <h6 class="c-purple f-bold">E muito mais...</h6>
+
+              <p>
+                São <span class="c-pink">mais de 50 videoaulas</span> disponíveis para você <span class="c-pink">assistir quando e onde quiser,</span> ministradas pelas professoras Claudia Molla e Néia Salete, que possuem vasta experiência na técnica do Biomagnetismo
+              </p>
+            </div>
+
+            <div class="column down">
+              <h5 class="c-purple f-bold">Dentro das aulas e do treinamento você também vai ter acesso a:</h5>
+
+              <div class="row cards">
+                <div class="column card">
+                  <div class="img" id="whatlearn-technique"></div>
+                  <p>Como aplicar a técnica de forma segura e eficaz, seguindo as normas e padrões de qualidade da ABRATH.</p>
+                </div>
+
+                <div class="column card">
+                  <div class="img" id="whatlearn-magnets"></div>
+                  <p>Técnicas de diagnóstico e tratamento com ímãs, incluindo a utilização do ímãs em áreas específicas do corpo.</p>
+                </div>
+
+                <div class="column card">
+                  <div class="img" id="whatlearn-classes"></div>
+                  <p>Aulas respondendo todas as suas perguntas.</p>
+                </div>
+
+                <div class="column card">
+                  <div class="img" id="whatlearn-body"></div>
+                  <p>Vídeos mostrando todas as reações do corpo em datelhes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="advantages">
+        <div class="container">
+          <div class="column main">
+            <h5 class="f-bold">TREINAMENTO Online + Grupo de Estudos + Certificado.</h5>
+
+            <div class="column items">
+              <div class="row">
+                <div class="column text">
+                  <h6 class="c-purple f-bold">uma nova fonte de renda</h6>
+                  <p>
+                    São <span class="c-purple">mais de 3.000 alunos formados,</span> desde 2013. Hoje, muitos deles são terapeutas, ou criaram seus próprios cursos, métodos e formas de aplicar a terapia.
+                  </p>
+                </div>
+                <div class="img" id="advantages-students"></div>
+              </div>
+
+              <div class="row">
+                <div class="column text">
+                  <h6 class="c-purple f-bold">Aprendizado na prática</h6>
+                  <p>
+                    Com <span class="c-purple">mais de 50 vídeo aulas</span> práticas e didáticas, totalizando <span class="c-purple">mais de 30 horas de conteúdo,</span> você aprenderá tudo o que precisa para colocar em prática o conhecimento adquirido.
+                  </p>
+                </div>
+                <div class="img" id="advantages-learning"></div>
+              </div>
+
+              <div class="row">
+                <div class="column text">
+                  <h6 class="c-purple f-bold">Certificado Abrath</h6>
+                  <p>
+                    Após concluir o treinamento, <span class="c-purple">você terá acesso a um certificado de conclusão reconhecido pela Abrath.</span> Isso significa que você estará devidamente credenciado para atuar como um(a) terapeuta.
+                  </p>
+                </div>
+                <div class="img" id="advantages-certificate"></div>
+              </div>
+            </div>
+
+            <a href="#offer" class="cta">Quero transformar minha saúde com o poder do Biomagnetismo!</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedbacks">
+        <div class="container arrows">
+          <i class='bx bx-down-arrow-alt'></i>
+          <div class="column main">
+            <div class="column title">
+              <h2 class="f-bold">veja o que nossos alunos falam sobre o treinamento:</h2>
+              <p>
+                Esses são apenas alguns dos relatos que recebemos diariamente de nossos alunos sobre o treinamento <span class="c-pink">Biomagnetismo Para Todos.</span>
+              </p>
+            </div>
+
+            <div class="column carousel"></div>
+          </div>
+          <i class='bx bx-down-arrow-alt'></i>
+        </div>
+      </section>
+
+      <section id="benefits">
+        <div class="container">
+          <div class="column main">
+            <div class="column title">
+              <h2 class="f-bold">Os benefícios não acabam</h2>
+              <p>Além de tudo que já mencionamos acima, você também terá acesso a:</p>
+            </div>
+
+            <div class="row cards">
+              <div class="column card">
+                <div class="img" id="benefits-magnets"></div>
+                <h6 class="c-pink f-bold">10 ímãs gratuitos</h6>
+                <p>10 ímãs prontos para você poder colocar seu aprendizado em prática.</p>
+              </div>
+
+              <div class="column card">
+                <div class="img" id="benefits-group"></div>
+                <h6 class="c-pink f-bold">grupo vip</h6>
+                <p>Grupo VIP com os alunos no Telegram para você poer interagir e tirar dúvidas.</p>
+              </div>
+
+              <div class="column card">
+                <div class="img" id="benefits-material"></div>
+                <h6 class="c-pink f-bold">apostilas ilustradas</h6>
+                <p>Apostilas ilustradas e detalhadas para facilitar ainda mais o seu aprendizado.</p>
+              </div>
+            </div>
+
+            <div class="column cta">
+              <div class="column text">
+               <p>Todas as aulas do treinamento, mais os Bônus que você terá acesso, somam juntos mais de R$4.000 Reais.</p> 
+               <h6 class="c-purple f-black">Mas fazendo a inscrição hoje, Você pagará somente <span class="c-pink f-bold">R$1.987,00</span> ou <span class="c-pink f-bold">12x de R$198,31*.</span></h6>
+              </div>
+
+              <a href="#offer" class="cta">Quero aproveitar os bônus especiais agora mesmo!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="who">
+        <div class="container arrows">
+          <i class='bx bx-down-arrow-alt'></i>
+          <div class="column main">
+            <h2 class="f-bold">Veja quem vai te ensinar</h2>
+
+            <div class="column video">
+              <div class="row buttons">
+                <div class="row button video-button active" data-title="Claudia Molla" data-src="https://www.youtube-nocookie.com/embed/-VLHTZstSR4?si=nidtkj8Q34m7HueX&amp;controls=0">
+                  <div class="img" id="who-claudia"></div>
+                  <h6 class="c-purple f-bold">Claudia Molla</h6>
+                </div>
+
+                <div class="row button video-button" data-title="Néia Salete" data-src="https://www.youtube-nocookie.com/embed/_t6pmRWB_oU?si=0HSjDmzuscmTiJNu&amp;controls=0">
+                  <div class="img" id="who-neia"></div>
+                  <h6 class="c-purple f-bold">Néia Salete</h6>
+                </div>
+              </div>
+
+              <div class="video" id="who-video">
+              </div>
+            </div>
+          </div>
+          <i class='bx bx-down-arrow-alt'></i>
+        </div>
+      </section>
+
+      <section id="warranty">
+        <div class="container">
+          <div class="column main">
+            <div class="column title">
+              <h2 class="f-bold">Ainda está na dúvida?</h2>
+              <p>
+                Pode acreditar, o <span class="c-pink f-bold">Treinamento Biomagnetismo Para Todos</span> simplesmente funciona. A prova disso são os <span class="c-purple">mais de 3.000 alunos</span> que estão <span class="c-purple">transformando a vida de familiares, suas próprias vidas e a de outras pessoas</span> com o Biomagnetismo.
+              </p>
+            </div>
+
+            <div class="row imgs">
+              <div class="img" id="warranty-certificate"></div>
+              <div class="img" id="warranty-stamp"></div>
+            </div>
+
+            <div class="column cta">
+              <h6 class="c-purple f-medium">O único risco que você corre aqui é de se tornar um terapeuta de sucesso!</h6>
+              <a href="#offer" class="cta">Quero ser um(a) terapeuta de sucesso!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="isfor">
+        <div class="container">
+          <div class="column main">
+            <h2 class="f-bold">O Biomagnetismo é Para Todos!</h2>
+
+            <div class="grid">
+              <div class="row">
+                <div class="img" id="isfor-me"></div>
+                <p class="f-bold">É para mim</p>
+              </div>
+
+              <div class="row">
+                <div class="img" id="isfor-you"></div>
+                <p class="f-bold">É para você</p>
+              </div>
+
+              <div class="row">
+                <div class="img" id="isfor-family"></div>
+                <p class="f-bold">É para nossa família</p>
+              </div>
+
+              <div class="row">
+                <div class="img" id="isfor-ages"></div>
+                <p class="f-bold">É para todas as idades</p>
+              </div>
+
+              <div class="row">
+                <div class="img" id="isfor-animals"></div>
+                <p class="f-bold">E é para nossos animais</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="with">
+        <div class="container arrows">
+          <i class='bx bx-down-arrow-alt'></i>
+          <div class="column main">
+            <h2 class="f-bold">Com o Biomagnetismo Você poderá buscar mais:</h2>
+
+            <div class="column mid">
+              <div class="row items">
+                <div class="row item">
+                  <i class='bx bx-donate-heart'></i>
+                  <p class="c-purple f-bold">Qualidade de vida</p>
+                </div>
+
+                <div class="row item">
+                  <i class='bx bx-body' ></i>
+                  <p class="c-purple f-bold">Consciência corporal</p>
+                </div>
+
+                <div class="row item">
+                  <i class='bx bx-brain' ></i>
+                  <p class="c-purple f-bold">Consciência psicológica</p>
+                </div>
+              </div>
+
+              <p class="f-bold">Além disso, <span class="c-purple">pode virar uma fonte de renda,</span> começar a atender outras pessoas e ganhar bastante dinheiro.</p>
+
+              <div class="column down">
+                <div class="row">
+                  <i class='bx bx-user-check' ></i>
+                  <p class="c-purple f-bold">é indicado para todas as pessoas!</p>
+                </div>
+
+                <p>Sem restrições de escolaridade ou níveis de aprendizado.</p>
+              </div>
+            </div>
+
+            <a href="#offer" class="cta">quero adquirir o biomagnetismo para todos!</a>
+          </div>
+
+          <div class="img" id="with-claudia"></div>
+          <i class='bx bx-down-arrow-alt'></i>
+        </div>
+      </section>
+
+      <section id="offer">
+        <div class="container">
+          <div class="column main">
+            <h4 class="f-bold">
+              <span class="c-purple">Chegou a sua vez</span> de estar conosco. Aprender a nossa forma de trabalhar, de <span class="c-purple">salvar vidas</span>, achar a verdadeira causa de Dores e Doenças.
+            </h4>
+
+            <div class="column offer">
+              <div class="img" id="offer-logotext"></div>
+
+              <div class="column benefits">
+                <h6 class="f-bold">Adquira o treinamento hoje mesmo e tenha acesso a:</h6>
+
+                <div class="row items">
+                  <div class="row item">
+                    <div class="img" id="offer-magnets"></div>
+                    <p>10 ímãs</p>
+                  </div>
+
+                  <div class="row item">
+                    <div class="img" id="offer-material"></div>
+                    <p>Apostilas</p>
+                  </div>
+
+                  <div class="row item">
+                    <div class="img" id="offer-certificate"></div>
+                    <p>Certificado</p>
+                  </div>
+                </div>
+
+                <p class="f-bold">e muito mais...</p>
+              </div>
+
+              <div class="column price">
+                <p>de <span>R$ 2.697,00</span>  por apenas</p>
+
+                <div class="column quota">
+                  <p class="c-pink f-bold">12x de</p>
+                  <h2 class="c-pink f-bold">R$ 198,31*</h2>
+                </div>
+
+                <p>ou apenas <span>R$ 1.987,00</span> á vista</p>
+              </div>
+
+              <a href="https://pay.hotmart.com/H50019471W?off=8ehnbuem" target="_blank" rel="noopener noreferrer" class="cta">Fazer inscrição agora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="recover">
+        <div class="container arrows">
+          <i class='bx bx-down-arrow-alt'></i>
+          <div class="column main">
+            <h5 class="f-bold">Recupere o valor investido no treinamento com <span class="c-purple">apenas 3 procedimentos.</span></h5>
+
+            <div class="row main">
+              <div class="column left">
+                <p>Valor do treinamento</p>
+                <h6 class="c-purple f-bold">R$1.987,00</h6>
+              </div>
+
+              <div class="img" id="recover-clockmoney"></div>
+
+              <div class="column right">
+                <p>Valor médio de um procedimento</p>
+                <h6 class="c-purple f-bold">R$ 850,00 a R$ 900,00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="img" id="recover-clock"></div>
+          <i class='bx bx-down-arrow-alt'></i>
+        </div>
+      </section>
+
+      <section id="world">
+        <div class="container">
+          <div class="row">
+            <h5 class="f-bold">Você não precisa estar no Brasil! Temos alunos em diversas partes do mundo!</h5>
+          </div>
+        </div>
+      </section>
+
+      <section id="course">
+        <div class="container">
+          <div class="column main">
+            <h2 class="f-bold">Um pouco sobre o treinamento</h2>
+
+            <div class="row main">
+              <div class="column card">
+                <div class="row icons">
+                  <i class='bx bx-video-recording'></i>
+                  <i class='bx bx-body' ></i>
+                </div>
+                <p>
+                  Conseguimos colocar neste treinamento todas as informações sobre o biomagnetismo e <span class="f-bold">gravamos bem de pertinho todas as reações do corpo.</span>
+                </p>
+              </div>
+
+              <div class="column card">
+                <div class="row icons">
+                  <i class='bx bx-money-withdraw' ></i>
+                  <i class='bx bx-heart-circle' ></i>
+                </div>
+                <p>
+                  De forma simples e fácil, <span class="f-bold">você já vai começar a aplicar todas as técnicas.</span> Conseguir fazer o auto tratamento, ajudar as pessoas que ama e até <span class="f-bold">conseguir uma fonte de renda!</span>
+                </p>
+              </div>
+            </div>
+
+            <h6 class="c-purple f-bold">Estaremos sempre juntos para tirar todas as dúvidas!</h6>
+
+            <a href="#offer" class="cta">Quero equilibrar a minha energia magnética agora!</a>
+          </div>
+
+          <div class="img right" id="course-income"></div>
+          <div class="img left" id="course-rec"></div>
+        </div>
+      </section>
+
+      <section id="bio">
+        <div class="container row">
+          <p class="f-bold">
+            O Biomagnetismo é uma terapia alternativa que usa pares de ímãs em pontos específicos do corpo promovendo bem estar. Além disso ajuda a equilibrar o magnetismo e auxilia no tratamento de diversas doenças que são causadas por desequilíbrios no campo magnético do corpo humano resultantes da presença de bactérias, vírus e outros agentes patogênicos que atacam nosso corpo quando estamos com a imunidade baixa.
+          </p>
+
+          <div class="img" id="bio-claudia"></div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="container">
+          <div class="column main">
+            <div class="column items">
+              <div class="column item">
+                <p class="question c-purple f-bold">
+                  1. Esse curso é adequado para iniciantes ou é necessário conhecimento prévio?
+                </p>
+  
+                <p class="answer">
+                  O Curso é indicados para todos!  Não é necessário nenhum conhecimento prévio. Basta ter vondade de aprender e estar aberto às incriveis possibilidades de tratamentos que o biomagnetismo proporciona. O Curso do Biomagnetismo para todos é 100% Online para você assistir quantas vezes quiser
+                </p>
+              </div>
+  
+              <div class="column item">
+                <p class="question c-purple f-bold">
+                  2. Quais são as opções de pagamento disponíveis? É possível parcelar o valor do curso?
+                </p>
+  
+                <p class="answer">
+                  As inscrições estão abertas agora mesmo. Pode ser pago de diversas formas. Pix, Cartão de credito e boleto bancario. A compra pode ser feita e qualquer lugar do planeta. O curso fica hospedado na Hotmart. Sistema 100% seguro. 
+                </p>
+              </div>
+  
+              <div class="column item">
+                <p class="question c-purple f-bold">
+                  3. Existe suporte ou acompanhamento do instrutor durante o curso, caso eu tenha dúvidas ou precise de ajuda?
+                </p>
+  
+                <p class="answer">
+                  Você tera acompanhamento vitalício, com as professoras. Canal exclusivo no Telegram para alunos. Perguntas na plataforma do curso e aulas ao vivo tira dúvidas
+                </p>
+              </div>
+  
+              <div class="column item">
+                <p class="question c-purple f-bold">
+                  4. Como funciona o acesso ao conteúdo do curso? Há uma data de expiração?
+                </p>
+  
+                <p class="answer">
+                  O curso tem duração vitalícia. Assista quantas vezes quiser.
+                </p>
+              </div>
+  
+              <div class="column item">
+                <p class="question c-purple f-bold">
+                  5. O que vou aprender com o Treinamento Biomagnetismo Para Todos?
+                </p>
+  
+                <p class="answer">
+                  Você vai aprender uma nova forma de cuidar da sua saúde. Este curso é indicado para terapeutas e pessoas que querem mudar de vida. Seja um terapeuta dentro da sua casa. Tenha uma nova fonte de renda com o Biomagnetismo.
+                  </p>
+              </div>
+            </div>
+
+            <a href="#offer" class="cta">Quero uma vida mais saudável agora mesmo!</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="warning">
+        <div class="container">
+          <div class="column main">
+            <h1 class="f-black">!</h1>
+            <p class="f-bold">
+              É importante lembrar que o Biomagnetismo e outras terapias complementares <span class="c-pink">não devem substituir o tratamento médico convencional,</span> mas devem ser usados como parte de um plano de tratamento integrativo. 
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="column main">
+          <div class="row upper">
+            <div class="column">
+              <p class="f-bold">Biomagnetismo Para Todos</p>
+              <p class="f-bold">CNPJ: <span>12.979.283/0001-44</span></p>
+            </div>
+  
+            <div class="img" id="footer-logo"></div>
+  
+            <div class="row">
+              <p class="regular">Siga a professora Claudia no Instagram:</p>
+  
+              <a href="https://www.instagram.com/mollaclaudia/" title="instagram" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </div>
+          </div>
+  
+          <div class="row down">
+            <div class="column left">
+              <p class="regular">
+                <a href="./pages/politicas.html" target="_blank" rel="noopener noreferrer">Políticas de Privacidade</a> 
+                | 
+                <a href="./pages/termos.html" target="_blank" rel="noopener noreferrer">Termos de Uso</a>
+              </p>
+  
+              <p class="medium">Copyright 2023 © Todos os direitos reservados à Biomagnetismo Para Todos.</p>
+            </div>
+  
+            <div class="column right">
+              <p>
+                <span class="f-bold">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</span> Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam.
+              </p>
+  
+              <div class="row">
+                <div class="img" id="footer-flags"></div>
+                <div class="img" id="footer-stamps"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./src/js/lazy-min.js" defer></script>
+  <script src="./src/js/carousel-min.js" defer></script>
+  <script src="./src/js/video-min.js" defer></script>
+  <script src="./src/js/tags-min.js" defer></script>
+</html>

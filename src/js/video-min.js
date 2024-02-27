@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){let t=document.querySelectorAll(".video-button"),e=document.getElementById("video-visible");t.forEach(i=>{i.addEventListener("click",()=>{let a=i.getAttribute("data-title"),d=i.getAttribute("data-src");t.forEach(t=>{t.classList.remove("active")}),i.classList.add("active"),e.src=d,e.title=a})})});
